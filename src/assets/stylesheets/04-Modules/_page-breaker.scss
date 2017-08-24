@@ -1,0 +1,25 @@
+.page-breaker {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    background-color: $primary;
+    margin-bottom: -40px;
+    left: 50%;
+    margin-left: -40px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 110px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 40px;
+    font-size: 4rem;
+    z-index: 1000;
+    span {
+        font-size: 25px;
+        color: #fff;
+        margin: auto;
+        position: relative;
+        top: -12px;
+    }
+}

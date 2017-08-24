@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6, a, p, li {
+font-family: Raleway-Regular;
+color: $primary;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+-webkit-font-smoothing : antialiased;
+}
+
+h1 {
+font-family: Raleway-Bold;
+font-size: 36px;
+margin: 0;
+}
+
+a {
+font-family: Raleway-Light;
+font-size: 12px;
+}
+
+p {
+    text-transform: none;
+}
+
+.section-heading {
+    letter-spacing: 0;
+}

@@ -1,0 +1,18 @@
+section {
+    background-color: #1C1E26;
+    position: relative;
+    &:nth-of-type(2n) {
+        background-color: #ffffff;
+    }
+
+    padding: 100px 50px;
+}
+
+.landing {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 200px);
+    svg {
+        margin: auto;
+    }
+}
